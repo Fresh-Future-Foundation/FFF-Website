@@ -583,7 +583,7 @@
 }
 
 .sideWaveImg {
-    opacity: 0.90;
+    opacity: 0.6;
 }
 
 .main-welcome {
@@ -941,15 +941,23 @@
 
 .team-people {
     margin-top: 20px;
-    height: 500px;
     width: 93%;
     border-radius: 15px;
     background-color: white;
     margin-bottom: 35px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-row {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    height: 500px;
+    width: 80%;
 }
 
 .person-card {

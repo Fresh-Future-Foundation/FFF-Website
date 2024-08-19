@@ -43,42 +43,65 @@ export default function AboutPage() {
                 <div className="about-center bottomdiv">
                     <h1 className="header-text redhat-bold">Meet The Team</h1>
                     <div className="team-people">
-                        <div className="person-card">
-                            <div className="stuff-div">
-                                <img className="blankImg top-margin" src="images/saketh-headshot.png" style={{height: 175, width: 175}}></img>
-                                <h1 className="person-name redhat-bold">Saketh Bongu</h1>
-                                <h6 className="person-title manrope-semibold">Co-Founder + President</h6>
-                                <p className="break-line"></p>
+                        <div className="team-row">
+                            <div className="person-card">
+                                <div className="stuff-div">
+                                    <img className="blankImg top-margin" src="images/saketh-headshot.png" style={{height: 175, width: 175}}></img>
+                                    <h1 className="person-name redhat-bold">Saketh Bongu</h1>
+                                    <h6 className="person-title manrope-semibold">Co-Founder + President</h6>
+                                    <p className="break-line"></p>
+                                </div>
+                                <div className="disc-div"><p className="person-disc manrope-light">Saketh is a junior at the Bridgewater Raritan High School in New Jersey. He loves to volunteer and would like to pursue a career in the field of Finance. In his free time, Saketh enjoys going on bike rides, playing video games, or playing basketball at his local park.</p></div>
                             </div>
-                            <div className="disc-div"><p className="person-disc manrope-light">Saketh is a junior at the Bridgewater Raritan High School in New Jersey. He loves to volunteer and would like to pursue a career in the field of Finance. In his free time, Saketh enjoys going on bike rides, playing video games, or playing basketball at his local park.</p></div>
+                            <div className="person-card">
+                                <div className="stuff-div">
+                                    <img className="blankImg top-margin" src="images/ethan-headshot.png" style={{height: 175, width: 175}}></img>
+                                    <h1 className="person-name redhat-bold">Ethan Chan</h1>
+                                    <h6 className="person-title manrope-semibold">Co-Founder + President</h6>
+                                    <p className="break-line"></p>
+                                </div>
+                                <div className="disc-div"><p className="person-disc manrope-light">Ethan is a junior currently attending Bridgewater-Raritan High School.  He volunteers to serve his community, partakes in extra-curriculars to better round himself, and aspires to explore the engineering field. In his free time, he enjoys playing video games and talking with friends.</p></div>
+                            </div>
+                            <div className="person-card">
+                                <div className="stuff-div">
+                                    <img className="blankImg top-margin" src="images/arya-headshot.png" style={{height: 175, width: 175}}></img>
+                                    <h1 className="person-name redhat-bold">Arya Vaidya</h1>
+                                    <h6 className="person-title manrope-semibold">Co-Founder + Webmaster</h6>
+                                    <p className="break-line"></p>
+                                </div>
+                                <div className="disc-div"><p className="person-disc manrope-light">Arya is currently attending Bridgewater-Raritan High School as a junior. He volunteers all over his community, such as: at his local temple, multiple libraries, and at cleanups for the community. He would like to pursue a career in Computer Science and likes to spend his free time playing with his friends.</p></div>
+                            </div>
                         </div>
-                        <div className="person-card">
-                            <div className="stuff-div">
-                                <img className="blankImg top-margin" src="images/ethan-headshot.png" style={{height: 175, width: 175}}></img>
-                                <h1 className="person-name redhat-bold">Ethan Chan</h1>
-                                <h6 className="person-title manrope-semibold">Co-Founder + President</h6>
-                                <p className="break-line"></p>
+                        <div className="team-row">
+                            <div className="person-card">
+                                <div className="stuff-div">
+                                    <img className="blankImg top-margin" src="/images/missing-person.png" style={{height: 175, width: 175}}></img>
+                                    <h1 className="person-name redhat-bold smaller-name">Sheraz Muhammad</h1>
+                                    <h6 className="person-title manrope-semibold">Social Media Manager</h6>
+                                    <p className="break-line"></p>
+                                </div>
+                                <div className="disc-div"><p className="person-disc manrope-light">Sheraz is currently entering The Woodlands Secondary School as a senior in Mississauga, Ontario and is planning on pursuing a career in Computer Science. Sheraz enjoys playing sports like Basketball, Soccer, Badminton, etc and also enjoys partaking in extra curricular activicties which serve his community.</p></div>
                             </div>
-                            <div className="disc-div"><p className="person-disc manrope-light">Ethan is a junior currently attending Bridgewater-Raritan High School.  He volunteers to serve his community, partakes in extra-curriculars to better round himself, and aspires to explore the engineering field. In his free time, he enjoys playing video games and talking with friends.</p></div>
-                        </div>
-                        <div className="person-card">
-                            <div className="stuff-div">
-                                <img className="blankImg top-margin" src="images/arya-headshot.png" style={{height: 175, width: 175}}></img>
-                                <h1 className="person-name redhat-bold">Arya Vaidya</h1>
-                                <h6 className="person-title manrope-semibold">Co-Founder + Webmaster</h6>
-                                <p className="break-line"></p>
+
+                            <div className="person-card">
+                                <div className="stuff-div">
+                                    <img className="blankImg top-margin" src="/images/akshit-headshot1.png" style={{height: 175, width: 175}}></img>
+                                    <h1 className="person-name redhat-bold smaller-name">Akshith Erukulla</h1>
+                                    <h6 className="person-title manrope-semibold">Software Intern</h6>
+                                    <p className="break-line"></p>
+                                </div>
+                                <div className="disc-div"><p className="person-disc manrope-light">Akshit is a sophomore at Merivale High School in Ottawa, Ontario and is planning on pursuing Computer Engineering. Akshit also enjoys playing the piano, basketball, soccer and volunteering as a robotics instructor.</p></div>
                             </div>
-                            <div className="disc-div"><p className="person-disc manrope-light">Arya is currently attending Bridgewater-Raritan High School as a junior. He volunteers all over his community, such as: at his local temple, multiple libraries, and at cleanups for the community. He would like to pursue a career in Computer Science and likes to spend his free time playing with his friends.
-</p></div>
-                        </div>
-                        <div className="person-card">
-                            <div className="stuff-div">
-                                <img className="blankImg top-margin" src="/images/missing-person.png" style={{height: 175, width: 175}}></img>
-                                <h1 className="person-name redhat-bold smaller-name">Sheraz Muhammad</h1>
-                                <h6 className="person-title manrope-semibold">Social Media Manager</h6>
-                                <p className="break-line"></p>
+
+                            <div className="person-card">
+                                <div className="stuff-div">
+                                    <img className="blankImg top-margin" src="/images/missing-person.png" style={{height: 175, width: 175}}></img>
+                                    <h1 className="person-name redhat-bold smaller-name">New Member</h1>
+                                    <h6 className="person-title manrope-semibold">???</h6>
+                                    <p className="break-line"></p>
+                                </div>
+                                <div className="disc-div"><p className="person-disc manrope-light">...</p></div>
                             </div>
-                            <div className="disc-div"><p className="person-disc manrope-light">Sheraz is currently entering The Woodlands Secondary School as a senior in Mississauga, Ontario and is planning on pursuing a career in Computer Science. Sheraz enjoys playing sports like Basketball, Soccer, Badminton, etc and also enjoys partaking in extra curricular activicties which serve his community.</p></div>
                         </div>
                     </div>
                 </div>
