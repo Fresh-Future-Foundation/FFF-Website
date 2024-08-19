@@ -1,0 +1,133 @@
+.blankImg {
+    background-image: url("../../public/images/Rectangle\ 5.png");
+    border-radius: 0px;
+}
+
+.donate-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.donate-title-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.donate-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.donate-title {
+    font-size: 65px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title-disc {
+    font-size: 23px;
+    width: 500px;
+}
+
+.donation-methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.donation-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.methods-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.method-title {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.method-disc {
+    margin-top: 5px;
+    width: 90%;
+}
+
+.method-box {
+    width: 65%;
+    height: 100px;
+    background-color: rgba(235, 235, 235, 1);
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.method-box:visited {
+    color: black;
+}
+
+.lineBreak {
+    height: 75%;
+    width: 1.25px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.top-box {
+    margin-bottom: 20px;
+}
+
+button.method-box:hover {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.method-details {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-self: center;
+    height: 90%;
+    width: 73%;
+}
+
+.method-icon {
+    background-image: none;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    border-width: 0px;
+}
+
+.method-name {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.method-directions {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 12px;
+    width: 90%;
+    height: 50px
+}

@@ -1,0 +1,357 @@
+@font-face {
+    font-family: Rubik-Black;
+    src: url("../../public/Fonts/Rubik/Rubik-Black.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-BlackItalic;
+    src: url("../../public/Fonts/Rubik/Rubik-BlackItalic.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-Bold;
+    src: url("../../public/Fonts/Rubik/Rubik-Bold.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-BoldItalic;
+    src: url("../../public/Fonts/Rubik/Rubik-BoldItalic.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-ExtraBold;
+    src: url("../../public/Fonts/Rubik/Rubik-ExtraBold.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-ExtraBoldItalic;
+    src: url("../../public/Fonts/Rubik/Rubik-ExtraBoldItalic.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-Regular;
+    src: url("../../public/Fonts/Rubik/Rubik-Regular.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-Italic;
+    src: url("../../public/Fonts/Rubik/Rubik-Italic.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-Light;
+    src: url("../../public/Fonts/Rubik/Rubik-Light.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-LightItalic;
+    src: url("../../public/Fonts/Rubik/Rubik-LightItalic.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-SemiBold;
+    src: url("../../public/Fonts/Rubik/Rubik-SemiBold.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-SemiBoldItalic;
+    src: url("../../public/Fonts/Rubik/Rubik-SemiBoldItalic.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-Medium;
+    src: url("../../public/Fonts/Rubik/Rubik-Medium.ttf")
+}
+  
+@font-face {
+    font-family: Rubik-MediumItalic;
+    src: url("../../public/Fonts/Rubik/Rubik-MediumItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url("../../public/Fonts/Poppins/Poppins-Black.ttf")
+}
+
+@font-face {
+    font-family: Poppins-BlackItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-BlackItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("../../public/Fonts/Poppins/Poppins-Bold.ttf")
+}
+
+@font-face {
+    font-family: Poppins-BoldItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-BoldItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url("../../public/Fonts/Poppins/Poppins-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: Poppins-ExtraBoldItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-ExtraBoldItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url("../../public/Fonts/Poppins/Poppins-ExtraLight.ttf")
+}
+
+@font-face {
+    font-family: Poppins-ExtraLightItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-ExtraLightItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Italic;
+    src: url("../../public/Fonts/Poppins/Poppins-Italic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../../public/Fonts/Poppins/Poppins-Regular.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("../../public/Fonts/Poppins/Poppins-ExtraLight.ttf")
+}
+
+@font-face {
+    font-family: Poppins-LightItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-LightItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("../../public/Fonts/Poppins/Poppins-Medium.ttf")
+}
+
+@font-face {
+    font-family: Poppins-MediumItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-MediumItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("../../public/Fonts/Poppins/Poppins-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: Poppins-SemiBoldItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-SemiBoldItalic.ttf")
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url("../../public/Fonts/Poppins/Poppins-Thin.ttf")
+}
+
+@font-face {
+    font-family: Poppins-ThinItalic;
+    src: url("../../public/Fonts/Poppins/Poppins-ThinItalic.ttf")
+}
+
+
+
+
+
+@font-face {
+    font-family: RedHat-Light;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-Light.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Light-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Regular;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Regular-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-Italic.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Medium;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-Medium.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Medium-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: RedHat-SemiBold;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: RedHat-SemiBold-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Bold;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Bold-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: RedHat-ExtraBold;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: RedHat-ExtraBold-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Black;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-Black.ttf");
+}
+
+@font-face {
+    font-family: RedHat-Black-Italic;
+    src: url("../../public/Fonts/RedHat/RedHatDisplay-BlackItalic.ttf");
+}
+
+.redhat-light {
+    font-family: RedHat-Light;
+}
+
+.redhat-light-italic {
+    font-family: RedHat-Light-Italic;
+}
+
+.redhat-regular {
+    font-family: RedHat-Regular;
+}
+
+.redhat-regular-italic {
+    font-family: RedHat-Regular-Italic;
+}
+
+.redhat-medium {
+    font-family: RedHat-Medium;
+}
+
+.redhat-medium-italic {
+    font-family: RedHat-Medium-Italic;
+}
+
+.redhat-semibold {
+    font-family: RedHat-SemiBold;
+}
+
+.redhat-semibold-italic {
+    font-family: RedHat-SemiBold-Italic;
+}
+
+.redhat-bold {
+    font-family: RedHat-Bold;
+}
+
+.redhat-bold-italic {
+    font-family: RedHat-Bold-Italic;
+}
+
+.redhat-extrabold {
+    font-family: RedHat-ExtraBold;
+}
+
+.redhat-extrabold-italic {
+    font-family: RedHat-ExtraBold-Italic;
+}
+
+.redhat-black {
+    font-family: RedHat-Black;
+}
+
+.redhat-black-italic {
+    font-family: RedHat-Black-Italic;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: Manrope-ExtraLight;
+    src: url("../../public/Fonts/Manrope/Manrope-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: Manrope-Light;
+    src: url("../../public/Fonts/Manrope/Manrope-Light.ttf");
+}
+
+@font-face {
+    font-family: Manrope-Regular;
+    src: url("../../public/Fonts/Manrope/Manrope-Regular.ttf");
+}
+
+@font-face {
+    font-family: Manrope-Medium;
+    src: url("../../public/Fonts/Manrope/Manrope-Medium.ttf");
+}
+
+@font-face {
+    font-family: Manrope-SemiBold;
+    src: url("../../public/Fonts/Manrope/Manrope-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Manrope-Bold;
+    src: url("../../public/Fonts/Manrope/Manrope-Bold.ttf");
+}
+
+@font-face {
+    font-family: Manrope-ExtraBold;
+    src: url("../../public/Fonts/Manrope/Manrope-ExtraBold.ttf");
+}
+
+.manrope-extralight {
+    font-family: Manrope-ExtraLight;
+}
+
+.manrope-light {
+    font-family: Manrope-Light;
+}
+
+.manrope-regular {
+    font-family: Manrope-Regular;
+}
+
+.manrope-medium {
+    font-family: Manrope-Medium;
+}
+
+.manrope-semibold {
+    font-family: Manrope-SemiBold;
+}
+
+.manrope-bold {
+    font-family: Manrope-Bold;
+}
+
+.manrope-extrabold {
+    font-family: Manrope-ExtraBold;
+}

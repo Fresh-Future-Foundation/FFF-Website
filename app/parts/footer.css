@@ -1,0 +1,137 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin: 0px -8px -8px -8px;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pageColumn {
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageLink {
+    font-size: 17px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: font-size 0.5s;
+}
+
+.middlePageLink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pageLink:hover {
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#titleText {
+    margin: 0px;
+    padding-bottom: 2px;
+    font-size: 25px;
+    text-align: left;
+    color: rgb(75, 134, 186);
+}
+
+#description {
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.contact-button {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    
+}
+
+#contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-img {
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: background-size 0.5s, height 0.5s, width 0.5s;
+}
+  
+.footer-contact-img:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.mail {
+    margin-left: 10px;
+    margin-right: 5px;
+    background-image: url("../../public/images/email.png");
+    transition: background-image 0.2s;
+}
+  
+.insta {
+    margin-left: 5px;
+    margin-right: 10px;
+    background-image: url("../../public/images/instagram.png");
+    transition: background-image 0.2s;
+}
+
+.linkedin {
+    background-image: url("../../public/images/linkedin.png");
+    transition: background-image 0.2s;
+}
+
+.discord {
+    background-image: url("../../public/images/discord.png");
+    transition: background-image 0.2s;
+}
+
+.insta:hover {
+    background-image: url("../../public/images/instagram-color.png");
+}
+  
+.linkedin:hover {
+    background-image: url("../../public/images/linkedin-color.png");
+}
+  
+.mail:hover {
+    background-image: url("../../public/images/email-color.png");
+}
+
+.discord:hover {
+    background-image: url("../../public/images/discord-color.png");
+}

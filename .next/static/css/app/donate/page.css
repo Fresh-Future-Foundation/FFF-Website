@@ -1,0 +1,711 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/parts/footer.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin: 0px -8px -8px -8px;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pageColumn {
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageLink {
+    font-size: 17px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: font-size 0.5s;
+}
+
+.middlePageLink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pageLink:hover {
+    font-size: 19px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#titleText {
+    margin: 0px;
+    padding-bottom: 2px;
+    font-size: 25px;
+    text-align: left;
+    color: rgb(75, 134, 186);
+}
+
+#description {
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.contact-button {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    
+}
+
+#contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-img {
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: background-size 0.5s, height 0.5s, width 0.5s;
+}
+  
+.footer-contact-img:hover {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.mail {
+    margin-left: 10px;
+    margin-right: 5px;
+    background-image: url(/_next/static/media/email.2596305c.png);
+    transition: background-image 0.2s;
+}
+  
+.insta {
+    margin-left: 5px;
+    margin-right: 10px;
+    background-image: url(/_next/static/media/instagram.a7d4df57.png);
+    transition: background-image 0.2s;
+}
+
+.linkedin {
+    background-image: url(/_next/static/media/linkedin.1fbfbc66.png);
+    transition: background-image 0.2s;
+}
+
+.discord {
+    background-image: url(/_next/static/media/discord.6e90b65e.png);
+    transition: background-image 0.2s;
+}
+
+.insta:hover {
+    background-image: url(/_next/static/media/instagram-color.8c1f035d.png);
+}
+  
+.linkedin:hover {
+    background-image: url(/_next/static/media/linkedin-color.fdef79cf.png);
+}
+  
+.mail:hover {
+    background-image: url(/_next/static/media/email-color.e8a9ae88.png);
+}
+
+.discord:hover {
+    background-image: url(/_next/static/media/discord-color.e41e666d.png);
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/styles/fonts.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+    font-family: Rubik-Black;
+    src: url(/_next/static/media/Rubik-Black.e643a12c.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-BlackItalic;
+    src: url(/_next/static/media/Rubik-BlackItalic.02d07fa1.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(/_next/static/media/Rubik-Bold.17188410.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-BoldItalic;
+    src: url(/_next/static/media/Rubik-BoldItalic.7be60230.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-ExtraBold;
+    src: url(/_next/static/media/Rubik-ExtraBold.1a94ede4.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-ExtraBoldItalic;
+    src: url(/_next/static/media/Rubik-ExtraBoldItalic.1f5734ec.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(/_next/static/media/Rubik-Regular.6bff33d9.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-Italic;
+    src: url(/_next/static/media/Rubik-Italic.a192c803.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-Light;
+    src: url(/_next/static/media/Rubik-Light.890fe6c3.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-LightItalic;
+    src: url(/_next/static/media/Rubik-LightItalic.9a22b4ff.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-SemiBold;
+    src: url(/_next/static/media/Rubik-SemiBold.935f2dd0.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-SemiBoldItalic;
+    src: url(/_next/static/media/Rubik-SemiBoldItalic.77717fa2.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(/_next/static/media/Rubik-Medium.2c1b47d4.ttf)
+}
+  
+@font-face {
+    font-family: Rubik-MediumItalic;
+    src: url(/_next/static/media/Rubik-MediumItalic.0d7cbe5a.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url(/_next/static/media/Poppins-Black.a7317f18.ttf)
+}
+
+@font-face {
+    font-family: Poppins-BlackItalic;
+    src: url(/_next/static/media/Poppins-BlackItalic.0719401c.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/_next/static/media/Poppins-Bold.8001a01b.ttf)
+}
+
+@font-face {
+    font-family: Poppins-BoldItalic;
+    src: url(/_next/static/media/Poppins-BoldItalic.1a15c5ce.ttf)
+}
+
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(/_next/static/media/Poppins-ExtraBold.7572a9b5.ttf)
+}
+
+@font-face {
+    font-family: Poppins-ExtraBoldItalic;
+    src: url(/_next/static/media/Poppins-ExtraBoldItalic.9656981d.ttf)
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(/_next/static/media/Poppins-ExtraLight.9102fb84.ttf)
+}
+
+@font-face {
+    font-family: Poppins-ExtraLightItalic;
+    src: url(/_next/static/media/Poppins-ExtraLightItalic.2ce50445.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Italic;
+    src: url(/_next/static/media/Poppins-Italic.b2efb5cd.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/_next/static/media/Poppins-Regular.4b4ebe20.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(/_next/static/media/Poppins-ExtraLight.9102fb84.ttf)
+}
+
+@font-face {
+    font-family: Poppins-LightItalic;
+    src: url(/_next/static/media/Poppins-LightItalic.acd7f79f.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/_next/static/media/Poppins-Medium.a52d0bf0.ttf)
+}
+
+@font-face {
+    font-family: Poppins-MediumItalic;
+    src: url(/_next/static/media/Poppins-MediumItalic.34a634e1.ttf)
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(/_next/static/media/Poppins-SemiBold.98512bf8.ttf)
+}
+
+@font-face {
+    font-family: Poppins-SemiBoldItalic;
+    src: url(/_next/static/media/Poppins-SemiBoldItalic.50263591.ttf)
+}
+
+@font-face {
+    font-family: Poppins-Thin;
+    src: url(/_next/static/media/Poppins-Thin.605324f7.ttf)
+}
+
+@font-face {
+    font-family: Poppins-ThinItalic;
+    src: url(/_next/static/media/Poppins-ThinItalic.ef891114.ttf)
+}
+
+
+
+
+
+@font-face {
+    font-family: RedHat-Light;
+    src: url(/_next/static/media/RedHatDisplay-Light.089f9045.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Light-Italic;
+    src: url(/_next/static/media/RedHatDisplay-LightItalic.25f20004.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Regular;
+    src: url(/_next/static/media/RedHatDisplay-Regular.c1f721cd.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Regular-Italic;
+    src: url(/_next/static/media/RedHatDisplay-Italic.0ecff810.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Medium;
+    src: url(/_next/static/media/RedHatDisplay-Medium.d58c20b1.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Medium-Italic;
+    src: url(/_next/static/media/RedHatDisplay-MediumItalic.c2ab621a.ttf);
+}
+
+@font-face {
+    font-family: RedHat-SemiBold;
+    src: url(/_next/static/media/RedHatDisplay-SemiBold.28d0f382.ttf);
+}
+
+@font-face {
+    font-family: RedHat-SemiBold-Italic;
+    src: url(/_next/static/media/RedHatDisplay-SemiBoldItalic.4921ccba.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Bold;
+    src: url(/_next/static/media/RedHatDisplay-Bold.ccb4bfce.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Bold-Italic;
+    src: url(/_next/static/media/RedHatDisplay-BoldItalic.fb50ec59.ttf);
+}
+
+@font-face {
+    font-family: RedHat-ExtraBold;
+    src: url(/_next/static/media/RedHatDisplay-ExtraBold.b9ef8d1c.ttf);
+}
+
+@font-face {
+    font-family: RedHat-ExtraBold-Italic;
+    src: url(/_next/static/media/RedHatDisplay-ExtraBoldItalic.53b3e4ca.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Black;
+    src: url(/_next/static/media/RedHatDisplay-Black.22f4907e.ttf);
+}
+
+@font-face {
+    font-family: RedHat-Black-Italic;
+    src: url(/_next/static/media/RedHatDisplay-BlackItalic.82b52fb1.ttf);
+}
+
+.redhat-light {
+    font-family: RedHat-Light;
+}
+
+.redhat-light-italic {
+    font-family: RedHat-Light-Italic;
+}
+
+.redhat-regular {
+    font-family: RedHat-Regular;
+}
+
+.redhat-regular-italic {
+    font-family: RedHat-Regular-Italic;
+}
+
+.redhat-medium {
+    font-family: RedHat-Medium;
+}
+
+.redhat-medium-italic {
+    font-family: RedHat-Medium-Italic;
+}
+
+.redhat-semibold {
+    font-family: RedHat-SemiBold;
+}
+
+.redhat-semibold-italic {
+    font-family: RedHat-SemiBold-Italic;
+}
+
+.redhat-bold {
+    font-family: RedHat-Bold;
+}
+
+.redhat-bold-italic {
+    font-family: RedHat-Bold-Italic;
+}
+
+.redhat-extrabold {
+    font-family: RedHat-ExtraBold;
+}
+
+.redhat-extrabold-italic {
+    font-family: RedHat-ExtraBold-Italic;
+}
+
+.redhat-black {
+    font-family: RedHat-Black;
+}
+
+.redhat-black-italic {
+    font-family: RedHat-Black-Italic;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: Manrope-ExtraLight;
+    src: url(/_next/static/media/Manrope-ExtraLight.fedf2590.ttf);
+}
+
+@font-face {
+    font-family: Manrope-Light;
+    src: url(/_next/static/media/Manrope-Light.c7470619.ttf);
+}
+
+@font-face {
+    font-family: Manrope-Regular;
+    src: url(/_next/static/media/Manrope-Regular.bd4fdd36.ttf);
+}
+
+@font-face {
+    font-family: Manrope-Medium;
+    src: url(/_next/static/media/Manrope-Medium.21bd6fd9.ttf);
+}
+
+@font-face {
+    font-family: Manrope-SemiBold;
+    src: url(/_next/static/media/Manrope-SemiBold.a1b1fe16.ttf);
+}
+
+@font-face {
+    font-family: Manrope-Bold;
+    src: url(/_next/static/media/Manrope-Bold.13e0014e.ttf);
+}
+
+@font-face {
+    font-family: Manrope-ExtraBold;
+    src: url(/_next/static/media/Manrope-ExtraBold.b3116da2.ttf);
+}
+
+.manrope-extralight {
+    font-family: Manrope-ExtraLight;
+}
+
+.manrope-light {
+    font-family: Manrope-Light;
+}
+
+.manrope-regular {
+    font-family: Manrope-Regular;
+}
+
+.manrope-medium {
+    font-family: Manrope-Medium;
+}
+
+.manrope-semibold {
+    font-family: Manrope-SemiBold;
+}
+
+.manrope-bold {
+    font-family: Manrope-Bold;
+}
+
+.manrope-extrabold {
+    font-family: Manrope-ExtraBold;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/parts/header.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.header {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: 100%;
+    margin-left: -8px;
+    margin-top: -8px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(112, 122, 135, 0.85);
+}
+  
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+#right-section {
+    padding-right: 5px;
+}
+  
+#logo-img {
+    margin-left: 10px;
+    background-image: url(/_next/static/media/logo.917144d3.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    height: 35px;
+    width: 35px;
+}
+  
+#brand-text {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    border-radius: 5px;
+    transition: font-size 0.5s;
+}
+  
+#brand-text:hover {
+    font-size: 31px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+  
+.header-page-text {
+    font-size: 20px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 12px;
+    border-radius: 5px;
+    transition: font-size 0.3s;
+}
+  
+.header-page-text:hover {
+    font-family: RedHat-Medium;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/donate/donate.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.blankImg {
+    background-image: url("/_next/static/media/Rectangle 5.f1c5df35.png");
+    border-radius: 0px;
+}
+
+.donate-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.donate-title-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.donate-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.donate-title {
+    font-size: 65px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title-disc {
+    font-size: 23px;
+    width: 500px;
+}
+
+.donation-methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.donation-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.methods-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.method-title {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.method-disc {
+    margin-top: 5px;
+    width: 90%;
+}
+
+.method-box {
+    width: 65%;
+    height: 100px;
+    background-color: rgba(235, 235, 235, 1);
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.method-box:visited {
+    color: black;
+}
+
+.lineBreak {
+    height: 75%;
+    width: 1.25px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.top-box {
+    margin-bottom: 20px;
+}
+
+button.method-box:hover {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.method-details {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-self: center;
+    height: 90%;
+    width: 73%;
+}
+
+.method-icon {
+    background-image: none;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    border-width: 0px;
+}
+
+.method-name {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.method-directions {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 12px;
+    width: 90%;
+    height: 50px
+}

@@ -1,0 +1,95 @@
+.blankImg {
+    background-image: url("../../public/images/Rectangle\ 5.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.join-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.join-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.title-disc {
+    font-size: 18px;
+    width: 75%;
+
+}
+
+.internship-opportunities {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.intern-positions {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.linebreak {
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.join-button {
+    width: 30%;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply-button {
+    width: 80%;
+    height: 30%;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: white;
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(41, 84, 143);
+    border-color: rgb(38, 69, 108);
+}
+
+.apply-button:hover {
+    background-color: rgb(41, 84, 143);
+}
+
+.email-text {
+    margin-bottom: 27px;
+}

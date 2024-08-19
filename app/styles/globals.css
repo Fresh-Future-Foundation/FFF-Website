@@ -1,0 +1,15 @@
+html {
+  background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+  width: 0px; 
+}
+
+.main-content {
+  padding-top: 49px;
+  padding-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -8px;
+  margin-right: -8px;
+}
