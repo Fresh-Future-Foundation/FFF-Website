@@ -24,7 +24,7 @@ export default function DonatePage() {
                             <h2 className="method-title manrope-bold">Monetary Donations</h2>
                             <p className="method-disc redhat-regular">Any of your monetary donations will be put to support development of wells and desalination processes to aid in giving access to water.</p>
                             <a target="_blank" href="https://hcb.hackclub.com/donations/start/fresh-future-foundation" className="method-box top-box">
-                                <img className="method-icon" src="images/hackclub-logo.png" style={{height: 70, width: 70}}></img>
+                                <img className="method-icon" src="images/hackclub-logo.png" style={{height: 60, width: 60}}></img>
                                 <div className="lineBreak"></div>
                                 <div className="method-details">
                                     <h1 className="method-name redhat-semibold ">HackClub</h1>
@@ -46,7 +46,7 @@ export default function DonatePage() {
                             <h2 className="method-title manrope-bold">Physical Donations</h2>
                             <p className="method-disc redhat-regular">Any physical items donated to us will be distributed to others in or near the regions we are working in.</p>
                             <button className="method-box top-box">
-                                <img className="method-icon" src="images/shipping-logo.png" style={{height: 70, width: 70}}></img>
+                                <img className="method-icon" src="images/shipping-logo.png" style={{height: 60, width: 60}}></img>
                                 <div className="lineBreak"></div>
                                 <div className="method-details">
                                     <h1 className="method-name redhat-semibold">Shipping</h1>
