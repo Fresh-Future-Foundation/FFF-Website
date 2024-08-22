@@ -180,7 +180,11 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "e77d71012ca38fa3"; }
+=======
+/******/ 		__webpack_require__.h = function() { return "b54b90819b53acf8"; }
+>>>>>>> aksh_branch
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

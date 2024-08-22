@@ -5,6 +5,7 @@ import "../styles/fonts.css"
 export default function Footer() {
     return (
         <footer className="footer">
+          <hr></hr>
           <div className="mainText">
             <p id="titleText" className="redhat-semibold">Fresh Future Foundation</p>
             <div id="contactInfo">

@@ -24,8 +24,8 @@ export default function LandingPage() {
                         </div>
                         <p className="welcomeDisc redhat-medium">Help provide water for underprivilied people all over the world.</p>
                         <div id="thing2">
-                            <Link href="about"><button className="welcome-buttons manrope-semibold learnmore">Learn More</button></Link>
-                            <Link href="donate"><button className="welcome-buttons manrope-semibold donate-button">Donate Now</button></Link>
+                            <Link href="about"><button className="welcome-buttons1 manrope-semibold learnmore">Learn More</button></Link>
+                            <Link href="donate"><button className="welcome-buttons2 manrope-semibold donate-button">Donate Now</button></Link>
                         </div>
                     </div>
                     <img className="sideWaveImg" src="images/right-wave2.png" style={{height: 700, width: 150}}></img>

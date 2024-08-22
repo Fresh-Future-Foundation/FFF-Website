@@ -108,7 +108,17 @@ button.method-box:hover {
     width: 73%;
 }
 
-.method-icon {
+.method-icon1 {
+    background-image: none;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    border-width: 0px;
+    transform: scale(0.857); /* Scale down the image to 60x60 so it has simialr size to dropbox image*/
+}
+
+.method-icon2 {
     background-image: none;
     background-size: 70px 70px;
     background-repeat: no-repeat;
@@ -128,6 +138,6 @@ button.method-box:hover {
     margin-top: 0px;
     text-align: left;
     font-size: 12px;
-    width: 90%;
+    width: 95%;
     height: 50px
 }
