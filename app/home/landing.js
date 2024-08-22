@@ -56,7 +56,10 @@ export default function LandingPage() {
                             </div>
                         </div>
                     </div>
-                    <img src="images/megaphone-graphic.png" style={{height: 300, width: 500}}></img>
+                    {/*<img src="images/megaphone-graphic.png" style={{height: 300, width: 500}}></img>*/}
+                    <video width="500" height="300" autoPlay muted loop>
+                        <source src="videos/mic8.mp4" type="video/mp4"/>
+                    </video>
                 </div>
                 <div className="buzzwords">
                     <div className="inner-section">

@@ -1,4 +1,4 @@
-// File: C:\Users\user\Akshith\Fresh Future Foundation\FFF-Website\app\donate\page.js
+// File: /Users/arya/Documents/CodeProjects/Full-Stack Dev/NewProject/fresh-future/app/donate/page.js
 import * as entry from '../../../../app/donate/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

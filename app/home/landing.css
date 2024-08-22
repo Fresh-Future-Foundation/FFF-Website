@@ -219,11 +219,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    padding-top: 40px;
     width: 100%;
     height: 300px;
     background-color: #F9FAFB;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .inner-section {
@@ -242,7 +242,7 @@
     width: 250px;
     height: 90%;
     border-radius: 20px;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(252, 252, 252);
     display: flex;
     flex-direction: column;
     align-items: center;
