@@ -48,7 +48,7 @@ export default function JoinPage() {
                         />
                     </div>
                     <div className="join-button">
-                        <a target="_blank" href="https://tally.so/r/3E0d5q" className="apply-button redhat-semibold">Click Here To Apply For Any/All Internships!</a>
+                        <a target="_blank" href="https://tally.so/r/3E0d5q" className="apply-button redhat-semibold">Apply Now</a>
                     </div>
                 </div>
                 <p className="manrope-regular email-text">If you have any questions about the opportunities or want extra information, email us at freshfuturefoundations@gmail.com or join our discord!</p>

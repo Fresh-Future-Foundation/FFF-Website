@@ -67,11 +67,9 @@ div.linebreak {
 .apply-button {
     width: 80%;
     height: 30%;
-    font-size: 30px;
+    font-size: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    border-style: solid;
-    border-width: 3px;
     border-radius: 15px;
     letter-spacing: 1px;
     line-height: 40px;
@@ -83,11 +81,14 @@ div.linebreak {
     align-self: center;
     justify-content: center;
     background-color: rgb(41, 84, 143);
-    border-color: rgb(38, 69, 108);
+    transition: background-color ease 0.3s, box-shadow ease 0.3s, translate ease 0.3s;
 }
 
 .apply-button:hover {
-    background-color: rgb(41, 84, 143);
+    background-color: rgb(53, 101, 168);
+    box-shadow: 0px 3px 15px rgba(68, 67, 78, 0.301);
+    translate: 0px -5px;
+
 }
 
 .email-text {
